@@ -62,14 +62,14 @@ button:hover {
 }
 
 .img1 {
-    background: url('./restaurant-with-brick-wall-pictures-flowers-wall_902639-29097.avif');
+    background: url('./shop.avif');
     height: 300px;
     width: 650px;
     background-size:cover;
 }
 
 .img2 {
-    background: url('./pexels-tyler-nix-1259808-2396220.jpg');
+    background: url('./coffee.jpg');
     height: 220px;
     width: 150px;
     background-size:contain;
