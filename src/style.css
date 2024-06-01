@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    height: 50px;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px; 
+    padding: 10px;  
+}
+
+.btn1 {
+    border: none;
+}
+
+.btn2 {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+   text-decoration: underline;
+   text-decoration-color: rgb(255, 255, 255);
+}
+
+.body {
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+}
+
+.img1 {
+    background: url('./restaurant-with-brick-wall-pictures-flowers-wall_902639-29097.avif');
+    height: 300px;
+    width: 650px;
+    background-size:cover;
+}
+
+.img2 {
+    background: url('./pexels-tyler-nix-1259808-2396220.jpg');
+    height: 220px;
+    width: 150px;
+    background-size:contain;
+}
+
+.items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+
+.coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
