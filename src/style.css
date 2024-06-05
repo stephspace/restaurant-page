@@ -3,9 +3,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color:rgb(65, 65, 65);
 }
 
-.body {
+#content {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -25,7 +26,8 @@ button {
     background: none;
     color: rgb(255, 255, 255);
     font-size: 20px; 
-    padding: 10px;  
+    padding: 10px; 
+    font-weight: bold; 
 }
 
 .btn1 {
@@ -35,7 +37,7 @@ button {
 .btn2 {
     cursor: pointer;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -57,8 +59,10 @@ button:hover {
     justify-content: center;
     padding: 20px;
     font-size: 40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style:italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
 }
 
 .img1 {

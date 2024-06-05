@@ -1,1 +1,4 @@
-console.log("Hello World!")
+import home from './homepage';
+import './tab'
+
+home();
