@@ -93,4 +93,23 @@ button:hover {
     justify-content: center;
 }
 
+.menu-section{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
 
+.entrees {
+    margin: 10px 10px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
